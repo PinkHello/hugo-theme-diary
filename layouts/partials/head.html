@@ -84,7 +84,8 @@
   owner: '{{ .Site.Params.Gitalk.owner }}',
   admin: ['{{ .Site.Params.Gitalk.owner }}'],
   id: md5(location.pathname),
-  distractionFreeMode: 'false'
+  distractionFreeMode: 'false',
+  proxy: '{{ .Site.Params.Gitalk.proxy }}'
   });
   window.onload = function () {
         gitalk.render('gitalk-container')

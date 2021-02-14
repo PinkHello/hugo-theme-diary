@@ -33,6 +33,7 @@ description = "My HomePage Description"  # will set 'og:description'
   repo = "repo name"
   client_id = "your client id"
   client_secret = "your client secret"
+  proxy = "https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token"
 [taxonomies]
    tag = "tags"
    category = "categories"
